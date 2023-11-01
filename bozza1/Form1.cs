@@ -42,7 +42,7 @@ namespace bozza1
             int ore, minuti, secondi;
             int diametroCerchio, centroXCerchio, centroYCerchio;
             Font font;
-            int dimensioneNumero;
+            SizeF dimensioneNumero;
             Pen trattocerchio = new Pen(Color.Black, 4 * Scala);
             Graphics g = e.Graphics;
             #endregion
