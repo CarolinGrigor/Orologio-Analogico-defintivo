@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -42,7 +42,7 @@ namespace bozza1
             int ore, minuti, secondi;
             int diametroCerchio, centroXCerchio, centroYCerchio;
             Font font;
-            SizeF dimensioneNumero;
+            int dimensioneNumero;
             Pen trattocerchio = new Pen(Color.Black, 4 * Scala);
             Graphics g = e.Graphics;
             #endregion
